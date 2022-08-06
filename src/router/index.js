@@ -1,21 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-const _import = require("@/libs/util.import." + process.env.NODE_ENV);
+import routes from "./routes";
 
 Vue.use(VueRouter);
-
-const routes = [
-  {
-    path: "/",
-    name: "HomeView",
-    component: () => _import("HomeView"),
-  },
-  {
-    path: "/",
-    name: "AboutView",
-    component: () => _import("AboutView"),
-  },
-];
 
 const router = new VueRouter({
   // mode: "history",
