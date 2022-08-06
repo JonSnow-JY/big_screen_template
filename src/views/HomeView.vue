@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "Aa",
+  name: "HomeView",
   components: {},
   mixins: [],
   props: {},

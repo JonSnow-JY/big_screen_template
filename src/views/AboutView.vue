@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "Bb",
+  name: "AboutView",
   components: {},
   mixins: [],
   props: {},
