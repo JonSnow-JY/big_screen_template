@@ -1,0 +1,75 @@
+@import "./var";
+
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+
+.fb {
+  font-weight: bold;
+}
+
+.w100 {
+  width: 100% !important;
+}
+
+.h100 {
+  height: 100% !important;
+}
+
+.wh100 {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cf {
+  color: #fff;
+}
+
+.bgf {
+  background-color: #fff;
+}
+
+.color-3 {
+  color: $color-3;
+}
+
+.color-6 {
+  color: $color-6;
+}
+
+.color-9 {
+  color: $color-9;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}

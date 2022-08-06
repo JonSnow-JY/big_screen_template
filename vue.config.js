@@ -109,6 +109,7 @@ module.exports = defineConfig({
     // 重新设置 alias
     config.resolve.alias
       .set("api", resolve("src/api"))
+      .set("assets", resolve("src/assets"))
       .set("components", resolve("src/components"))
       .set("mixins", resolve("src/mixins"))
       .set("views", resolve("src/views"))
@@ -123,7 +124,7 @@ module.exports = defineConfig({
   pluginOptions: {
     "style-resources-loader": {
       preProcessor: "scss",
-      patterns: [resolve("src/assets/scss/var.scss")],
+      patterns: [resolve("src/assets/sass/var.scss")],
     },
   },
 });

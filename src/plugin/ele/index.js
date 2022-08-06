@@ -4,6 +4,7 @@ import "element-ui/lib/theme-chalk/index.css";
 import "element-ui/lib/theme-chalk/reset.css";
 // flex 布局库
 import "flex.css";
+import "assets/sass/index.scss";
 
 import customPlugin from "plugin/customPlugin";
 // 功能插件

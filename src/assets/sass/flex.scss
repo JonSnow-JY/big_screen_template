@@ -1,0 +1,52 @@
+.flex {
+  display: flex;
+}
+
+.flex0 {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.flex1 {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.fac {
+  display: flex;
+  align-items: center;
+}
+
+.ftac {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fjc {
+  display: flex;
+  justify-content: center;
+}
+
+.fcc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fbc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ftcc {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}

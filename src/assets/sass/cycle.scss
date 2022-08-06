@@ -1,0 +1,87 @@
+@for $index from 0 to 50 {
+  $size: #{$index}px !important;
+  // margin
+  .m#{$index} {
+    margin: $size;
+  }
+  .mt#{$index} {
+    margin-top: $size;
+  }
+  .mr#{$index} {
+    margin-right: $size;
+  }
+  .mb#{$index} {
+    margin-bottom: $size;
+  }
+  .ml#{$index} {
+    margin-left: $size;
+  }
+  .mtb#{$index} {
+    margin-top: $size;
+    margin-bottom: $size;
+  }
+  .mlr#{$index} {
+    margin-left: $size;
+    margin-right: $size;
+  }
+
+  // padding
+  .p#{$index} {
+    padding: $size;
+  }
+  .pt#{$index} {
+    padding-top: $size;
+  }
+  .pr#{$index} {
+    padding-right: $size;
+  }
+  .pb#{$index} {
+    padding-bottom: $size;
+  }
+  .pl#{$index} {
+    padding-left: $size;
+  }
+  .ptb#{$index} {
+    padding-top: $size;
+    padding-bottom: $size;
+  }
+  .plr#{$index} {
+    padding-left: $size;
+    padding-right: $size;
+  }
+}
+
+@for $index from 12 to 50 {
+  $size: #{$index}px !important;
+
+  .fz#{$index} {
+    font-size: $size;
+  }
+
+  .lh#{$index} {
+    line-height: $size;
+  }
+}
+
+@for $index from 0 to 15 {
+  $size: #{$index}px !important;
+
+  .r#{$index} {
+    border-radius: $size;
+  }
+}
+
+@for $index from 0 to 50 {
+  $size: #{$index}px !important;
+
+  .w#{$index} {
+    width: $size;
+  }
+  .h#{$index} {
+    height: $size;
+  }
+  .wh#{$index} {
+    width: $size;
+    height: $size;
+  }
+}
